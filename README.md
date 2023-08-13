@@ -24,7 +24,10 @@ Some code was borrowed from [KeAP](https://github.com/RL4M/KeAP) and [OntoProtei
 
 ----  
 ## Environments for Pre-training
-**Main dependencies** is listed in the `requirments.txt` file and build with Python 3.7.
+**Main dependencies** is listed in the `requirments.txt` file and build with Python 3.7. Execute the following command to install all required dependencies:
+```shell
+pip install -r requirements.txt
+```
 
 Following [OntoProtein](https://github.com/zjunlp/OntoProtein), we also make small changes to the `deepspeed.py` file under transformers library (❗required for pre-training).
 The changes can be applied by running:
@@ -34,8 +37,10 @@ cp replace_code/deepspeed.py <path-to-python3.7>/site-packages/transformers/deep
 
 ----
 ## Environments for Downstream Tasks
-**Main dependencies** is listed in the `requirments.txt` file and build with Python 3.7.
-
+**Main dependencies** is listed in the `requirments.txt` file and build with Python 3.7. Execute the following command to install all required dependencies:
+```shell
+pip install -r requirements.txt
+```
 Note PyTorch Geometric is required for the PPI (protein-protein interaction) task. Check your PyTorch and cuda versions, and follow the [installation instructions](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html) to install correctly.
 
 Since the `tape_proteins` library only implemented the `P@L` metric for the contact prediction task, we add the `P@L/5` and `P@L/2` metrics by running the following script:
@@ -68,7 +73,7 @@ The detailed arguments are listed in `src/training_args.py`.
 ----
 ## Downstream Tasks (Fine-tuning)
 
-In this part, we fine-tune the pre-trained model (i.e., a checkpoint of the GOProteinGNN model) on various downstream tasks.
+In this part, we fine-tune the [pre-trained model](https://drive.google.com/file/d/1OMvpRKc9ZgOY98Zsh3OQpOOWAdB_s_9m/view?usp=sharing) (GOProteinGNN) on various downstream tasks.
 
 ❗NOTE: You will need to change some paths for downstream data and extracted embeddings (PPI and PROBE tasks) before running the code.
 
