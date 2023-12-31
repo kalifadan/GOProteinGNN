@@ -2,15 +2,14 @@
 
 ### Dan Kalifa, Uriel Singer and Kira Radinsky
 
-#### In Proceedings of the The 38th Annual AAAI Conference on Artificial Intelligence, February 20-27, 2024, Vancouver, Canada.
-
+#### In Proceedings of the 33rd International Joint Conference on Artificial Intelligence, IJCAI 2024, Jeju Island, South Korea.
 
 > **Abstract:** Proteins play a vital role in biological processes and are indispensable for living organisms. Accurate representation of proteins is crucial, especially in drug development.
 Recently, there has been a notable increase in interest in utilizing machine learning and deep learning techniques for unsupervised learning of protein representations. 
 However, these approaches often focus solely on the amino acid sequence of proteins and lack factual knowledge about proteins and their interactions, thus limiting their performance.
-In this study, we present GOProteinGNN, a novel algorithm that employs a graph neural network injection to perform a joint learning process of amino-level representations and protein-level representations. Our approach allows for the integration of information at both the individual amino acid level and the entire protein level, enabling a comprehensive and effective learning process through graph-based learning.
+In this study, we present GOProteinGNN, a novel architecture that enhances language models by integrating protein knowledge graph information during the creation of amino acid-level representations. Our approach allows for the integration of information at both the individual amino acid level and the entire protein level, enabling a comprehensive and effective learning process through graph-based learning.
 By doing so, we can capture complex relationships and dependencies between proteins and their functional annotations, resulting in more robust and contextually enriched protein representations.
-We perform comprehensive evaluations on several downstream tasks demonstrating that GOProteinGNN consistently outperforms previous methods, showcasing its effectiveness and establishing it as a state-of-the-art solution for protein representation learning.
+We perform comprehensive evaluations on several downstream tasks demonstrating that GOProteinGNN consistently outperforms previous methods, showcasing its effectiveness and establishing it as a state-of-the-art (SOTA) solution for protein representation learning.
 
 The GOProteinGNN pre-training architecture:
 ![IMAGE_DESCRIPTION](GOProteinGNN.png)
