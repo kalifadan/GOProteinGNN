@@ -2,7 +2,7 @@
 
 ### Dan Kalifa, Uriel Singer and Kira Radinsky
 
-#### In Proceedings of the 33rd International Joint Conference on Artificial Intelligence, IJCAI 2024, Jeju Island, South Korea.
+#### In Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024), Boise, Idaho, USA.
 
 > **Abstract:** Proteins play a vital role in biological processes and are indispensable for living organisms. Accurate representation of proteins is crucial, especially in drug development.
 Recently, there has been a notable increase in interest in utilizing machine learning and deep learning techniques for unsupervised learning of protein representations. 
