@@ -9,6 +9,7 @@ Recently, there has been a notable increase in interest in utilizing machine lea
 However, these approaches often focus solely on the amino acid sequence of proteins and lack factual knowledge about proteins and their interactions, thus limiting their performance.
 In this study, we present GOProteinGNN, a novel architecture that enhances language models by integrating protein knowledge graph information during the creation of amino acid-level representations. Our approach allows for the integration of information at both the individual amino acid level and the entire protein level, enabling a comprehensive and effective learning process through graph-based learning.
 By doing so, we can capture complex relationships and dependencies between proteins and their functional annotations, resulting in more robust and contextually enriched protein representations.
+Furthermore, GOProteinGNN sets itself apart by uniquely learning the entire protein knowledge graph during training which allows it to capture broader relational nuances and dependencies beyond mere triplets as done in previous works.
 We perform comprehensive evaluations on several downstream tasks demonstrating that GOProteinGNN consistently outperforms previous methods, showcasing its effectiveness and establishing it as a state-of-the-art (SOTA) solution for protein representation learning.
 
 The GOProteinGNN pre-training architecture:
