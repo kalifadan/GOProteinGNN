@@ -2,8 +2,6 @@
 
 ### Dan Kalifa, Uriel Singer and Kira Radinsky
 
-#### In Proceedings of the 31th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '25), August 3-7, 2025, Toronto, ON, Canada.
-
 > **Abstract:** Proteins play a vital role in biological processes and are indispensable for living organisms. Accurate representation of proteins is crucial, especially in drug development.
 Recently, there has been a notable increase in interest in utilizing machine learning and deep learning techniques for unsupervised learning of protein representations. 
 However, these approaches often focus solely on the amino acid sequence of proteins and lack factual knowledge about proteins and their interactions, thus limiting their performance.
