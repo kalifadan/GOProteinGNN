@@ -47,7 +47,7 @@ if __name__ == "__main__":
     save_path = "gcn-output/ppi"
     graph_only_train = "False"
 
-    batch_size = 2048
+    batch_size = 1024
     epochs = 200
 
     run_func(description, ppi_path, pseq_path, vec_path, 
