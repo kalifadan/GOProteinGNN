@@ -8,7 +8,7 @@ nohup sh run_main.sh \
       --do_train True \
       --epoch 5 \
       --optimizer AdamW \
-      --per_device_batch_size 2 \
+      --per_device_batch_size 1 \
       --gradient_accumulation_steps 8 \
       --eval_step 50 \
       --eval_batchsize 1 \
