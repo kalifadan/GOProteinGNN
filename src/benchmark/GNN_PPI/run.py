@@ -48,7 +48,7 @@ if __name__ == "__main__":
     graph_only_train = "False"
 
     batch_size = 2048
-    epochs = 300
+    epochs = 200
 
     run_func(description, ppi_path, pseq_path, vec_path, 
             split_new, split_mode, train_valid_index_path,
